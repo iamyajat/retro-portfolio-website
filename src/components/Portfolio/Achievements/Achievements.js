@@ -1,6 +1,6 @@
 import { useState } from "react";
 const Achievements = () => {
-  const [achievements, setAchievements] = useState([
+  const [achievements] = useState([
     "Best Freshers Award at DevSoc (2021).",
     "Overall 2nd Winner at DevSpace (2021).",
     "Winner at HackOff 3.0 in AI/Data Science (2020).",

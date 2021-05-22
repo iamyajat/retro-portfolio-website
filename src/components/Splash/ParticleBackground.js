@@ -26,7 +26,6 @@ const ParticleBackground = () => {
             },
             move: {
               random: true,
-              speed: 1,
               direction: "top",
               out_mode: "out",
               speed: 0.1,

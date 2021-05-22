@@ -3,7 +3,7 @@ import { useState } from "react";
 import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
-  const [projects, setProjects] = useState([
+  const [projects] = useState([
     {
       id: 1,
       title: "SMART BOOKMARK, API AND ML MODEL",
@@ -66,6 +66,7 @@ const Projects = () => {
           className="github-icon"
           href="https://github.com/iamyajat"
           target="_blank"
+          rel="noreferrer"
         >
           <FaGithub />
         </a>

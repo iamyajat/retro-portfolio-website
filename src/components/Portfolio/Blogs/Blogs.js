@@ -3,7 +3,7 @@ import { FaMediumM } from "react-icons/fa";
 import Blog from "./Blog";
 
 const Blogs = () => {
-  const [blogs, setBlogs] = useState([
+  const [blogs] = useState([
     {
       id: 1,
       title: "INTUITION BEHIND GANS",
@@ -42,6 +42,7 @@ const Blogs = () => {
           className="github-icon"
           href="https://iamyajat.medium.com/"
           target="_blank"
+          rel="noreferrer"
         >
           <FaMediumM />
         </a>

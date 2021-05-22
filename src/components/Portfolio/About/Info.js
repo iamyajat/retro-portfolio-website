@@ -9,7 +9,7 @@ import {
 const Info = () => {
   return (
     <div className="info-card">
-      <img className="profile-pic" src={profile_pic} />
+      <img className="profile-pic" src={profile_pic} alt="Yajat Malhotra"/>
       <div className="about-me">
         <h1>Yajat Malhotra</h1>
         <br />
@@ -26,6 +26,7 @@ const Info = () => {
             className="social-icon"
             href="https://linkedin.com/in/iamyajat"
             target="_blank"
+            rel="noreferrer"
           >
             <FaLinkedinIn />
           </a>
@@ -33,6 +34,7 @@ const Info = () => {
             className="social-icon"
             href="https://github.com/iamyajat"
             target="_blank"
+            rel="noreferrer"
           >
             <FaGithub />
           </a>
@@ -40,6 +42,7 @@ const Info = () => {
             className="social-icon"
             href="https://kaggle.com/iamyajat"
             target="_blank"
+            rel="noreferrer"
           >
             <FaKaggle />
           </a>
@@ -47,6 +50,7 @@ const Info = () => {
             className="social-icon"
             href="https://iamyajat.medium.com"
             target="_blank"
+            rel="noreferrer"
           >
             <FaMediumM />
           </a>
@@ -54,6 +58,7 @@ const Info = () => {
             className="social-icon"
             href="https://twitter.com/iamyajat"
             target="_blank"
+            rel="noreferrer"
           >
             <FaTwitter />
           </a>

@@ -1,7 +1,6 @@
 import {
   SiPython,
   SiTensorflow,
-  SiPytorch,
   SiAndroid,
   SiAndroidstudio,
   SiKotlin,
@@ -16,7 +15,7 @@ import {
 import { useState } from "react";
 
 const Skills = () => {
-  const [certifications, setCertifications] = useState([
+  const [certifications] = useState([
     "Neural Networks and Deep Learning - deeplearning.ai",
     "Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization - deeplearning.ai",
     "Structuring Machine Learning Projects - deeplearning.ai",
@@ -27,10 +26,11 @@ const Skills = () => {
     "Getting Started: Create and Manage Cloud Resources - Qwiklabs",
   ]);
 
-  const [skills, setSkills] = useState([
+  const [skills] = useState([
     <SiPython data-tip="Python" className="ic-but" />,
     <SiTensorflow data-tip="Tensorflow" className="ic-but" />,
     <SiAndroid data-tip="Android Appdev" className="ic-but" />,
+    <SiAndroidstudio data-tip="Android Studio" className="ic-but" />,
     <SiKotlin data-tip="Kotlin" className="ic-but" />,
     <SiJava data-tip="Java" className="ic-but" />,
     <SiHtml5 data-tip="HTML5" className="ic-but" />,
