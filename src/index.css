@@ -380,11 +380,11 @@ p {
   margin: 10px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .project-card {
-  margin: 15px 5px 10px 5px;
+  margin: 0px 5px 10px 5px;
   min-width: 300px;
   max-width: 27%;
   padding: 30px;
