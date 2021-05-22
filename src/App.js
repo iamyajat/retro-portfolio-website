@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import Intro from "./components/Splash/Intro";
+import ParticleBackground from "./components/Splash/ParticleBackground";
+import Portfolio from "./components/Portfolio/Portfolio";
+import { useState } from "react";
 
-function App() {
+const App = () => {
+  const [portfolio, setPortfolio] = useState(false);
+  const openPortfolio = () => {
+    setPortfolio(!portfolio);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <ParticleBackground />
+      <Intro
+        name="Yajat Malhotra"
+        designation="Software Developer"
+        onExplore={openPortfolio}
+      />
+      {portfolio ? <Portfolio onClose={openPortfolio} /> : ""}
+    </>
   );
-}
+};
 
 export default App;
