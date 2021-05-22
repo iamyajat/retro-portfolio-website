@@ -115,7 +115,7 @@ p {
   width: 80%;
   font-size: 2.5rem;
   text-align: center;
-  opacity: 85%;
+  opacity: 0.85;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -145,7 +145,7 @@ p {
   color: white;
   padding: 15px 32px;
   cursor: pointer;
-  opacity: 30%;
+  opacity: 0.3;
   border: 2px solid white;
   transition: 0.3s;
   -webkit-user-select: none;
@@ -161,7 +161,7 @@ p {
 
 .btn:hover {
   background-color: var(--pink);
-  opacity: 90%;
+  opacity: 0.9;
 }
 
 .portfolio-card {
@@ -424,7 +424,7 @@ p {
 
 .project-btn:hover {
   background-color: var(--pink);
-  opacity: 90%;
+  opacity: 0.9;
   color: white !important;
 }
 
