@@ -11,15 +11,15 @@ const Education = () => {
             Computer Science & Engineering
           </p>
           <p>Batch of 2024</p>
-          <p>CGPA: 9.68</p>
+          {/* <p>CGPA: </p> */}
         </div>
         <div className="school-info">
           <h2>Greenwood High International School</h2>
           <p>Bangalore, India</p>
           <br />
           <p>Batch of 2020</p>
-          <p>12th ISC: 95.25%</p>
-          <p>10th ICSE: 95%</p>
+          <p>12th ISC</p>
+          <p>10th ICSE</p>
         </div>
       </div>
     </div>
