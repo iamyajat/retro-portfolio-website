@@ -12,6 +12,7 @@
     "react-particles-js": "^3.4.1",
     "react-scripts": "4.0.3",
     "react-tooltip": "^4.2.19",
+    "tsparticles": "^1.29.2",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
