@@ -1,8 +1,14 @@
-# [Retro Portfolio](https://retro-portfolio.pages.dev/)
+# Retro Portfolio
 
 ![Home Screen](./public/screenshots/home-screen.png)
+
+### Screenshots
 ![Summary Screen](./public/screenshots/dev-screen.png)
 ![Projects Screen](./public/screenshots/projects-screen.png)
+![Projects Screen](./public/screenshots/blogs-screen.png)
+![Projects Screen](./public/screenshots/achievements-screen.png)
+
+[Demo link](https://retro-portfolio.pages.dev/)
 
 ### Before Running
 Have the following installed on your computer:
