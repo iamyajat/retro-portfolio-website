@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Retro Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Home Screen](./public/screenshots/home-screen.png)
 
-## Available Scripts
+### Screenshots
+![Summary Screen](./public/screenshots/dev-screen.png)
+![Projects Screen](./public/screenshots/projects-screen.png)
+![Projects Screen](./public/screenshots/blogs-screen.png)
+![Projects Screen](./public/screenshots/achievements-screen.png)
 
-In the project directory, you can run:
+[Demo link](https://retro-portfolio.pages.dev/)
 
-### `yarn start`
+### Before Running
+Have the following installed on your computer:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Git](https://git-scm.com/downloads)
+- [Node.js](https://nodejs.org/)
+- [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Cloning the project
+Using your terminal, run the following command in the directory where you want the project:
 
-### `yarn test`
+- SSH: `git@github.com:iamyajat/retro-portfolio-website.git`
+- HTTP: `https://github.com/iamyajat/retro-portfolio-website.git`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Running the Project
+First, install the depedencies in the project! In a terminal, make sure you are in the directory of the project and run (depending on your package manager):
 
-### `yarn build`
+| npm | yarn |
+| ----------- | ----------- |
+| `npm install` | `yarn` |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Next, simply run the project with the following command in your terminal (depending on your package manager):
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| npm | yarn |
+| ----------- | ----------- |
+| `npm start` | `yarn start` |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This will run the project at  [http://localhost:3000](http://localhost:3000). To close the project at any time, press `CTRL+C` in your terminal.

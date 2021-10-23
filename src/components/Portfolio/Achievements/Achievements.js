@@ -15,7 +15,7 @@ const Achievements = ({openMenu}) => {
         <br />
         <ul className="cert-list">
           {achievements.map((achievement) => (
-            <li>▪ {achievement}</li>
+            <li>{achievement}</li>
           ))}
         </ul>
       </div>
