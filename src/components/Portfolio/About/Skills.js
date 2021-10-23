@@ -53,7 +53,7 @@ const Skills = () => {
       <h1 className="cert-heading">Certifications</h1>
       <ul className="cert-list">
         {certifications.map((certification) => (
-          <li>▪ {certification}</li>
+          <li>{certification}</li>
         ))}
       </ul>
     </div>
