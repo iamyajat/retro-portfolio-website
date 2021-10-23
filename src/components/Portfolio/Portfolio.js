@@ -7,17 +7,23 @@ import Projects from "./Projects/Projects";
 
 const Portfolio = ({ onClose }) => {
   const [page, setPage] = useState("about");
+  const [openMenu, setOpenMenu] = useState(false);
+
+  const showMenu = () => {
+    setOpenMenu(!openMenu);
+  };
+
   const changePage = (p) => {
     setPage(p);
   };
   return (
     <>
       <div className="portfolio-card">
-        <Nav onClose={onClose} onChange={changePage} page={page} />
-        {page === "about" ? <About /> : ""}
-        {page === "projects" ? <Projects /> : ""}
-        {page === "blogs" ? <Blogs /> : ""}
-        {page === "achievements" ? <Achievements /> : ""}
+        <Nav openMenu={openMenu} onClose={onClose} onChange={changePage} page={page} showMenu={showMenu} />
+        {page === "about" ? <About openMenu={openMenu}/> : ""}
+        {page === "projects" ? <Projects openMenu={openMenu}/> : ""}
+        {page === "blogs" ? <Blogs openMenu={openMenu}/> : ""}
+        {page === "achievements" ? <Achievements openMenu={openMenu}/> : ""}
       </div>
     </>
   );

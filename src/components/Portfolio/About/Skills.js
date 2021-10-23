@@ -43,7 +43,7 @@ const Skills = () => {
 
   return (
     <div className="skills-card">
-      <h1>Skills</h1>
+      <h1 className="skills-heading">Skills</h1>
       <ul className="list-inline dev-icons">
         {skills.map((skill) => (
           <li className="list-inline-item">{skill}</li>
@@ -53,7 +53,7 @@ const Skills = () => {
       <h1 className="cert-heading">Certifications</h1>
       <ul className="cert-list">
         {certifications.map((certification) => (
-          <li>▪ {certification}</li>
+          <li className="cert-content">▪ {certification}</li>
         ))}
       </ul>
     </div>

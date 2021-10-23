@@ -3,9 +3,9 @@ import Info from "./Info"
 import Skills from "./Skills"
 import ReactTooltip from "react-tooltip";
 
-const About = () => {
+const About = ({openMenu}) => {
   return (
-    <div className="portfolio-section">
+    <div className={`portfolio-section opened-menu-${openMenu}`}>
       <Info />
       <Skills />
       <Education />

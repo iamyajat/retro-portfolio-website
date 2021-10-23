@@ -134,6 +134,10 @@ p {
   height: 100%;
 }
 
+.menu-button {
+  display: none;
+}
+
 .btn {
   margin: 0;
   position: absolute;
@@ -294,8 +298,7 @@ p {
   color: white;
   border-radius: 100%;
   font-size: 1.5rem;
-  margin-left: 1.5rem;
-  margin-top: 1rem;
+  margin: 1rem 1.5rem 0 0;
 }
 
 .social-icons .social-icon:last-child {
@@ -374,6 +377,7 @@ p {
   font-family: monospace;
   line-height: 1.6;
   font-size: 14px;
+  list-style-type: none;
 }
 
 .card-view {
@@ -503,6 +507,110 @@ p {
     padding: 10px 20px;
     font-size: 12px;
   }
+
+  .about-me {
+    margin-top: 20px;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .achievements-heading, .education-heading, .skills-heading {
+    padding: 20px 0 0 10px;
+  }
+
+  .cert-heading {
+    margin: 0 0 20px 10px;
+  }
+
+  .cert-list {
+    padding: 0 0 20px 0;
+  }
+
+  .cert-list li {
+    padding: 0 10px;
+  }
+
+  .dev-icons {
+    display: block;
+    margin-top: 0;
+    padding: 20px 10px 0 10px;
+  }
+
+  .education-card, .info-card, .skills-card {
+    padding: 0;
+    width: 91%;
+  }
+
+  .education-info {
+    display: block;
+    padding: 20px 10px;
+  }
+
+  .info-card {
+    display: block;
+    width: 91%;
+  }
+
+  .list-inline-item {
+    margin-left: 1rem;
+  }
+
+  .menu-button {
+    cursor: pointer;
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    height: 30px;
+    margin: 0 10px;
+    padding: 10px;
+  }
+
+  .menu-open-true {
+    height: 230px;
+  }
+
+  .nav-links {
+    display: block;
+  }
+
+  .nav-links li span {
+    text-align: left;
+  }
+
+  .opened-menu-true {
+    top: calc(50% + 130px);
+    height: calc(68vh - 60px);
+  }
+
+  .profile-description {
+    padding: 0 25px;
+  }
+
+  .profile-img {
+    display: flex;
+  }
+
+  .profile-pic {
+    margin: 20px auto auto auto;
+  }
+
+  .school-info {
+    margin: 0 5px;
+    width: 40%;
+  }
+
+  .school-info {
+    margin: auto auto 20px auto;
+    width: 80%;
+  }
+
+  .show-option-false {
+    display: none;
+  }
+
+  .social-icons .social-icon, .social-icons .social-icon:last-child {
+    margin: 0 1rem 1rem 1rem;
+  }
 }
 
 @media only screen and (max-width: 619px) {
@@ -532,6 +640,11 @@ p {
   .btn {
     padding: 8px 12px;
     font-size: 12px;
+  }
+
+  .project-card {
+    min-width: unset;
+    max-width: unset;
   }
 }
 
