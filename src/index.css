@@ -614,17 +614,23 @@ p {
 }
 
 @media only screen and (max-width: 619px) {
+  .btn {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+
   .name-title {
     top: 30%;
     font-size: 6rem;
   }
+
   .name-designation {
     top: 70%;
     font-size: 1.5rem;
   }
-  .btn {
-    padding: 10px 20px;
-    font-size: 12px;
+
+  .social-icons .social-icon, .social-icons .social-icon:last-child {
+    margin: 0 0.7rem 1rem 0.7rem;
   }
 }
 
@@ -633,21 +639,32 @@ p {
     top: 30%;
     font-size: 5rem;
   }
+
   .name-designation {
     top: 65%;
     font-size: 1.2rem;
   }
+
   .btn {
     padding: 8px 12px;
     font-size: 12px;
   }
 
+  .about-me {
+    margin-top: 10px;
+  }
+
   .education-card {
-    width: 100%;
+    width: 90%;
   }
 
   .info-card {
-    width: 100%;
+    width: 90%;
+  }
+
+  .opened-menu-false {
+    top: calc(50% + 25px);
+    height: calc(96vh - 60px);
   }
 
   .opened-menu-true {
@@ -660,9 +677,17 @@ p {
     width: 98vw;
   }
 
-  .opened-menu-false {
-    top: calc(50% + 25px);
-    height: calc(96vh - 60px);
+  .portfolio-section {
+    width: 98vw;
+  }
+
+  .profile-pic {
+    height: 170px;
+    width: 170px;
+  }
+
+  .profile-description {
+    padding: 0 5px;
   }
 
   .project-card {
@@ -670,8 +695,14 @@ p {
     max-width: unset;
   }
 
+  .social-icons .social-icon, .social-icons .social-icon:last-child {
+    height: 3.15rem;
+    margin: 0 0.4em 1rem 0.4rem;
+    width: 3.15rem;
+  }
+
   .skills-card {
-    width: 100%;
+    width: 90%;
   }
 }
 
