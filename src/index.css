@@ -642,9 +642,36 @@ p {
     font-size: 12px;
   }
 
+  .education-card {
+    width: 100%;
+  }
+
+  .info-card {
+    width: 100%;
+  }
+
+  .opened-menu-true {
+    top: calc(50% + 120px);
+    height: calc(75vh - 60px);
+  }
+
+  .portfolio-card {
+    height: 99vh;
+    width: 98vw;
+  }
+
+  .opened-menu-false {
+    top: calc(50% + 25px);
+    height: calc(96vh - 60px);
+  }
+
   .project-card {
     min-width: unset;
     max-width: unset;
+  }
+
+  .skills-card {
+    width: 100%;
   }
 }
 
@@ -653,10 +680,12 @@ p {
     top: 35%;
     font-size: 4rem;
   }
+
   .name-designation {
     top: 65%;
     font-size: 1rem;
   }
+
   .btn {
     padding: 8px 12px;
     font-size: 12px;
