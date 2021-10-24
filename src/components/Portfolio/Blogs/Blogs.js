@@ -2,7 +2,7 @@ import { useState } from "react";
 import { FaMediumM } from "react-icons/fa";
 import Blog from "./Blog";
 
-const Blogs = () => {
+const Blogs = ({openMenu}) => {
   const [blogs] = useState([
     {
       id: 1,
@@ -30,7 +30,7 @@ const Blogs = () => {
 
   return (
     <>
-      <div className="portfolio-section">
+      <div className={`portfolio-section opened-menu-${openMenu}`}>
         <div className="card-view">
           {blogs.map((blog) => (
             <Blog key={blog.id} blog={blog} />

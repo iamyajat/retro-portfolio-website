@@ -2,7 +2,7 @@ import Project from "./Project";
 import { useState } from "react";
 import { FaGithub } from "react-icons/fa";
 
-const Projects = () => {
+const Projects = ({openMenu}) => {
   const [projects] = useState([
     {
       id: 1,
@@ -54,7 +54,7 @@ const Projects = () => {
 
   return (
     <>
-      <div className="portfolio-section">
+      <div className={`portfolio-section opened-menu-${openMenu}`}>
         <div className="card-view">
           {projects.map((project) => (
             <Project key={project.id} project={project} />

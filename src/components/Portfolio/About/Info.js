@@ -9,11 +9,13 @@ import {
 const Info = () => {
   return (
     <div className="info-card">
-      <img className="profile-pic" src={profile_pic} alt="Yajat Malhotra"/>
+      <div className="profile-img">
+        <img className="profile-pic" src={profile_pic} alt="Yajat Malhotra"/>
+      </div>
       <div className="about-me">
         <h1>Yajat Malhotra</h1>
         <br />
-        <p>
+        <p className="profile-description">
           Hey there! I am freshman at Vellore Institute of
           Technology. My career aspiration is to provide digital solutions for
           real-life human and business problems utilizing my knowledge in AI and

@@ -134,6 +134,10 @@ p {
   height: 100%;
 }
 
+.menu-button {
+  display: none;
+}
+
 .btn {
   margin: 0;
   position: absolute;
@@ -294,8 +298,7 @@ p {
   color: white;
   border-radius: 100%;
   font-size: 1.5rem;
-  margin-left: 1.5rem;
-  margin-top: 1rem;
+  margin: 1rem 1.5rem 0 0;
 }
 
 .social-icons .social-icon:last-child {
@@ -374,6 +377,7 @@ p {
   font-family: monospace;
   line-height: 1.6;
   font-size: 14px;
+  list-style-type: none;
 }
 
 .card-view {
@@ -503,20 +507,130 @@ p {
     padding: 10px 20px;
     font-size: 12px;
   }
+
+  .about-me {
+    margin-top: 20px;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .achievements-heading, .education-heading, .skills-heading {
+    padding: 20px 0 0 10px;
+  }
+
+  .cert-heading {
+    margin: 0 0 20px 10px;
+  }
+
+  .cert-list {
+    padding: 0 0 20px 0;
+  }
+
+  .cert-list li {
+    padding: 0 10px;
+  }
+
+  .dev-icons {
+    display: block;
+    margin-top: 0;
+    padding: 20px 10px 0 10px;
+  }
+
+  .education-card, .info-card, .skills-card {
+    padding: 0;
+    width: 91%;
+  }
+
+  .education-info {
+    display: block;
+    padding: 20px 10px;
+  }
+
+  .info-card {
+    display: block;
+    width: 91%;
+  }
+
+  .list-inline-item {
+    margin-left: 1rem;
+  }
+
+  .menu-button {
+    cursor: pointer;
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    height: 30px;
+    margin: 0 10px;
+    padding: 10px;
+  }
+
+  .menu-open-true {
+    height: 230px;
+  }
+
+  .nav-links {
+    display: block;
+  }
+
+  .nav-links li span {
+    text-align: left;
+  }
+
+  .opened-menu-true {
+    top: calc(50% + 130px);
+    height: calc(68vh - 60px);
+  }
+
+  .profile-description {
+    padding: 0 25px;
+  }
+
+  .profile-img {
+    display: flex;
+  }
+
+  .profile-pic {
+    margin: 20px auto auto auto;
+  }
+
+  .school-info {
+    margin: 0 5px;
+    width: 40%;
+  }
+
+  .school-info {
+    margin: auto auto 20px auto;
+    width: 80%;
+  }
+
+  .show-option-false {
+    display: none;
+  }
+
+  .social-icons .social-icon, .social-icons .social-icon:last-child {
+    margin: 0 1rem 1rem 1rem;
+  }
 }
 
 @media only screen and (max-width: 619px) {
+  .btn {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+
   .name-title {
     top: 30%;
     font-size: 6rem;
   }
+
   .name-designation {
     top: 70%;
     font-size: 1.5rem;
   }
-  .btn {
-    padding: 10px 20px;
-    font-size: 12px;
+
+  .social-icons .social-icon, .social-icons .social-icon:last-child {
+    margin: 0 0.7rem 1rem 0.7rem;
   }
 }
 
@@ -525,13 +639,70 @@ p {
     top: 30%;
     font-size: 5rem;
   }
+
   .name-designation {
     top: 65%;
     font-size: 1.2rem;
   }
+
   .btn {
     padding: 8px 12px;
     font-size: 12px;
+  }
+
+  .about-me {
+    margin-top: 10px;
+  }
+
+  .education-card {
+    width: 90%;
+  }
+
+  .info-card {
+    width: 90%;
+  }
+
+  .opened-menu-false {
+    top: calc(50% + 25px);
+    height: calc(96vh - 60px);
+  }
+
+  .opened-menu-true {
+    top: calc(50% + 120px);
+    height: calc(75vh - 60px);
+  }
+
+  .portfolio-card {
+    height: 99vh;
+    width: 98vw;
+  }
+
+  .portfolio-section {
+    width: 98vw;
+  }
+
+  .profile-pic {
+    height: 170px;
+    width: 170px;
+  }
+
+  .profile-description {
+    padding: 0 5px;
+  }
+
+  .project-card {
+    min-width: unset;
+    max-width: unset;
+  }
+
+  .social-icons .social-icon, .social-icons .social-icon:last-child {
+    height: 3.15rem;
+    margin: 0 0.4em 1rem 0.4rem;
+    width: 3.15rem;
+  }
+
+  .skills-card {
+    width: 90%;
   }
 }
 
@@ -540,10 +711,12 @@ p {
     top: 35%;
     font-size: 4rem;
   }
+
   .name-designation {
     top: 65%;
     font-size: 1rem;
   }
+
   .btn {
     padding: 8px 12px;
     font-size: 12px;

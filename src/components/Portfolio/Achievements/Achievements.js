@@ -1,5 +1,5 @@
 import { useState } from "react";
-const Achievements = () => {
+const Achievements = ({openMenu}) => {
   const [achievements] = useState([
     "Best Freshers Award at DevSoc (2021).",
     "Overall 2nd Winner at DevSpace (2021).",
@@ -9,9 +9,9 @@ const Achievements = () => {
     "Won a lot of inter-school Tug of War matches (2018-19).",
   ]);
   return (
-    <div className="portfolio-section">
+    <div className={`portfolio-section opened-menu-${openMenu}`}>
       <div className="skills-card">
-        <h1>Achievements</h1>
+        <h1 className="achievements-heading">Achievements</h1>
         <br />
         <ul className="cert-list">
           {achievements.map((achievement) => (
