@@ -663,8 +663,8 @@ p {
   }
 
   .opened-menu-false {
-    top: calc(50% + 25px);
-    height: calc(96vh - 60px);
+    top: calc(50% + 31px);
+    height: calc(99vh - 60px);
   }
 
   .opened-menu-true {
