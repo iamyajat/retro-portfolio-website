@@ -190,6 +190,8 @@ p {
   display: flex;
   justify-content: space-between;
   padding: 10px;
+  position: static;
+  top: 0;
 }
 
 .nav-links {
