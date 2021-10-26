@@ -482,6 +482,12 @@ p {
   background-color: var(--deep-blue);
 }
 
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  .portfolio-card {
+    top: 55%;
+  }
+}
+
 @media only screen and (max-width: 1100px) {
   .name-title {
     top: 35%;
